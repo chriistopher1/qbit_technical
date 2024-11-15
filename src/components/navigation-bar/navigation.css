@@ -1,0 +1,27 @@
+.navigation-link {
+  background: linear-gradient(to left, #0f0f0f 50%, white 50%) right;
+  background-size: 200% 100%;
+  transition: 0.5s ease-in-out;
+  display: inline-block;
+}
+
+.navigation-link:hover {
+  background-position: left;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 768px){
+    
+    .navigation-link-container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        gap: 0;
+    }
+
+
+}

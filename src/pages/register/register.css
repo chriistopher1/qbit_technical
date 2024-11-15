@@ -1,0 +1,10 @@
+#password-input:has(input:focus) {
+  border: 2px solid #c4a484;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 5px;
+}
